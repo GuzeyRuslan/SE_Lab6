@@ -4,17 +4,18 @@
 using namespace std;
 
 //тестирование класса комплексных чисел
-int main(){
+int main()
+    {
         Complex A, B(-4), C(23.0, 45.9);
 
-        cout<< A <<","<< B<<","<<C <<endl;
+        cout<< A << "," << B << "," << C << endl;
         A = B + C;
-        cout<< "A = B + C, A = "<< A<<endl;
+        cout<< "A = B + C, A = "<< A<< endl;
 
         Complex M = B - C;
         cout<< "M = B - C, M = " << M << endl;
-        cout<< "M * A = "<<M*A<<endl;
-        cout<< "M / 4.45 = "<<M/4.45<<endl;
+        cout<< "M * A = " << M * A << endl;
+        cout<< "M / 4.45 = " << M / 4.45 << endl;
 
         Complex D;
         cout<< "Enter complex number D = ";
